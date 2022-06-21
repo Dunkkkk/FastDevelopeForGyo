@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D43A3D052861F73A00B99578 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D43A3D072861F78D00B99578 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D43A3D082861F79900B99578 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D43A3CFE2861F72D00B99578 = {
+			isa = PBXGroup;
+			children = (
+				D43A3D062861F74400B99578 /* Network */,
+			);
+			sourceTree = "<group>";
+		};
+		D43A3D062861F74400B99578 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D43A3D052861F73A00B99578 /* Service.swift */,
+				D43A3D072861F78D00B99578 /* Constants.swift */,
+				D43A3D082861F79900B99578 /* Model.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D43A3CFF2861F72D00B99578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = D43A3D022861F72D00B99578 /* Build configuration list for PBXProject "FastDevelopeForGyo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43A3CFE2861F72D00B99578;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D43A3D032861F72D00B99578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D43A3D042861F72D00B99578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43A3D022861F72D00B99578 /* Build configuration list for PBXProject "FastDevelopeForGyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43A3D032861F72D00B99578 /* Debug */,
+				D43A3D042861F72D00B99578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43A3CFF2861F72D00B99578 /* Project object */;
+}
