@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		D42AB564287734A1004BD006 /* RxService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxService.swift; sourceTree = "<group>"; };
 		D43A3D052861F73A00B99578 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		D43A3D072861F78D00B99578 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D43A3D082861F79900B99578 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -25,6 +26,7 @@
 		D43A3D062861F74400B99578 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D42AB564287734A1004BD006 /* RxService.swift */,
 				D43A3D052861F73A00B99578 /* Service.swift */,
 				D43A3D072861F78D00B99578 /* Constants.swift */,
 				D43A3D082861F79900B99578 /* Model.swift */,

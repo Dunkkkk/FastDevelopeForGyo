@@ -35,7 +35,7 @@ struct MainMyPageService{
     
     private func judgeStatus(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
         let decoder = JSONDecoder()
-        guard let decodedData = try? decoder.decode(NetkResponse<>.self, from: data)
+        guard let decodedData = try? decoder.decode(NetkResponse<Any>.self, from: data)
         else {
             return .pathErr}
         switch statusCode {
