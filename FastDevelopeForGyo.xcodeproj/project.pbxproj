@@ -11,6 +11,7 @@
 		D43A3D052861F73A00B99578 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		D43A3D072861F78D00B99578 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D43A3D082861F79900B99578 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D46B446628883B5200CB02F0 /* AnimationByScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationByScroll.swift; sourceTree = "<group>"; };
 		D4A826DD287814970030197E /* MoyaNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetwork.swift; sourceTree = "<group>"; };
 		D4B21A852865DD2600BCA17E /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -19,6 +20,7 @@
 		D43A3CFE2861F72D00B99578 = {
 			isa = PBXGroup;
 			children = (
+				D46B446528883B3A00CB02F0 /* Animation */,
 				D4B21A842865DD0A00BCA17E /* WireframeCustonView */,
 				D43A3D062861F74400B99578 /* Network */,
 			);
@@ -34,6 +36,14 @@
 				D4A826DD287814970030197E /* MoyaNetwork.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		D46B446528883B3A00CB02F0 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D46B446628883B5200CB02F0 /* AnimationByScroll.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		D4B21A842865DD0A00BCA17E /* WireframeCustonView */ = {

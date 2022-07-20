@@ -40,7 +40,7 @@ extension serviceMoya: TargetType {
             return .get
         }
     }
-    
+        
     var task: Task {
         switch self{
         case .load(let currentLocation,let query,let distance):
@@ -55,7 +55,6 @@ extension serviceMoya: TargetType {
         }
     }
 }
-
 
 
 class NetworkServiceMoya {
