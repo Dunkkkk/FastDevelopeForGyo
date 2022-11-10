@@ -15,12 +15,15 @@
 		D46B446628883B5200CB02F0 /* AnimationByScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationByScroll.swift; sourceTree = "<group>"; };
 		D4A826DD287814970030197E /* MoyaNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetwork.swift; sourceTree = "<group>"; };
 		D4B21A852865DD2600BCA17E /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D4D2E8C4291D2CFE006D1FCA /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		D4D2E8C6291D2D43006D1FCA /* InputOutputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputOutputViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		D43A3CFE2861F72D00B99578 = {
 			isa = PBXGroup;
 			children = (
+				D4D2E8C5291D2D2E006D1FCA /* ViewModel */,
 				D46B446528883B3A00CB02F0 /* Animation */,
 				D4B21A842865DD0A00BCA17E /* WireframeCustonView */,
 				D43A3D062861F74400B99578 /* Network */,
@@ -35,6 +38,7 @@
 				D43A3D072861F78D00B99578 /* Constants.swift */,
 				D43A3D082861F79900B99578 /* Model.swift */,
 				D4A826DD287814970030197E /* MoyaNetwork.swift */,
+				D4D2E8C4291D2CFE006D1FCA /* Fetcher.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -54,6 +58,14 @@
 				D4B21A852865DD2600BCA17E /* CustomView.swift */,
 			);
 			path = WireframeCustonView;
+			sourceTree = "<group>";
+		};
+		D4D2E8C5291D2D2E006D1FCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4D2E8C6291D2D43006D1FCA /* InputOutputViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
